@@ -1,0 +1,96 @@
+.AllFilms {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: space-between;
+  align-content: space-around;
+  padding: 10px;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.Menu {
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+  background-color:  #3b2339; 
+  padding: 20px;  
+}
+
+
+.MenuList {   
+  color: honeydew;
+  text-decoration: none;
+  margin: 0 100px;  
+  font-size: 20px;  
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.MenuList:hover {
+  color:skyblue;
+  cursor: pointer;
+}
+
+.image {
+  border-radius: 3%;
+}
+
+.name {
+  color: #3b2339; 
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+.info {
+  font-weight: bolder;
+  color: #3b2339;  
+}
+
+.Films {
+  background-color:skyblue;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  border-color: #3b2339;
+  padding: 20px;
+  text-align: center;
+  a{
+    text-decoration: none;
+  }
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.nameID{
+  color: #3b2339; 
+  font-family: monospace;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.tittle1 {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  color:hwb(160 0% 0%);
+  background-color: #3b2339;
+  padding: 0%;
+}
+
+
+.filters {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filters select,
+.filters input {
+  padding: 8px;
+  font-size: 15px;
+  font-weight: bold;
+}
